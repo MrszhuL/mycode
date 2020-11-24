@@ -7,9 +7,12 @@
 //
 
 #include <iostream>
-
+int n;
 int main(int argc, const char * argv[]) {
     // insert code here...
+    std::cin>>n;
     std::cout << "Hello, World!\n";
+    for(int i=1;i<=n;i++)
+        printf("%d",i);
     return 0;
 }
